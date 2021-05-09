@@ -4,7 +4,7 @@ var likeCount = 0;
 function likePost(){
     likeCount++;
  var postLikeLabel = document.getElementById('postLikeLabel');
- postLikeLabel.innerHTML = 'Liked';
+ postLikeLabel.innerHTML = 'Liked!';
  var postLikeLabelContent =  likeCount == 1 ? likeCount + ' person likes this!' : likeCount + ' people like this!';
  var postLikesInfo = document.getElementsByClassName('post-like-info');
  postLikesInfo[0].innerHTML = postLikeLabelContent;
