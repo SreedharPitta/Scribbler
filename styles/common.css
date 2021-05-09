@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+align-items: center;
+align-content: center;
+flex-direction: row;
+padding: 1% 2% !important;
+}
+.header-left-items{
+    line-height: 22px;
+}
+.logo-title{
+    font-family: 'Montez', cursive;
+font-size: 28px;
+color: #0000f5;
+text-decoration: none;
+}
+.logo-title:active, .logo-title:hover{
+    color: #0000f5;
+    text-decoration: none;
+}
+.logo-sub-title{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 14px;
+margin-bottom: 0px;
+color:#3c3c3c;
+}
+.header-right-items{
+    text-align: right;
+}
+.header-buttons{
+padding: 8px 2%;
+color: #fff;
+background-color: blue;
+text-align: center;
+border: 1px solid #d0d0d0;
+width: auto;
+min-width: 15%;
+}
+#signUpBtn{
+    margin-right: 0.75%;
+}
+#signInBtn{
+    margin-left: 0.75%;
+}
