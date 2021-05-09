@@ -24,7 +24,7 @@ align-items: center;
 .post-edit-holder{
     text-align: right;
 }
-.post-edit-btn, .post-like-btn, .post-comment-btn{
+.post-edit-btn,.post-save-btn, .post-like-btn, .post-comment-btn{
     background-color: #da3c57;
 padding: 6px 15px;
 color: #fff;
@@ -37,8 +37,11 @@ box-shadow: 0px 0px 4px gray;
 cursor: pointer;
 text-align: center;
 }
-.post-edit-btn i{
+.post-edit-btn i, .post-save-btn i{
     margin-left: 5px;
+}
+#savePostBtn{
+    display: none;
 }
 .post-content{
     text-align: justify;
@@ -49,7 +52,7 @@ line-height: 20px;
 .post-like-btn i {
     margin-right: 5px;
 }
-.post-like-text{
+.post-like-info{
     font-size: 13px;
     color: gray;
     font-family: 'Ubuntu Mono', monospace;
@@ -74,6 +77,7 @@ line-height: 20px;
 .comments-display-div{
     background-color: #e2e4e6;
     padding: 12px 5px;
+    display: none;
 }
 .user-comment{
     margin: 10px;
