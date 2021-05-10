@@ -1,3 +1,19 @@
+window.onload = function () {
+    var url = document.location.href;
+    params = url.split('?')[1].split('&'),
+    data = {};
+    var tmp = "";
+for (var i = 0, l = params.length; i < l; i++) {
+     tmp = params[i].split('=');
+     data[tmp[0]] = tmp[1];
+}
+if(data.author && data.title && data.content){
+document.getElementById('postAuthor').innerHTML = atob(data.author);
+document.getElementById('postTitle').innerHTML = atob(data.title);
+document.getElementById('postContent').innerHTML = atob(data.content);
+}
+}
+
 var likeCount = 0;
 
 // Like Post Function
