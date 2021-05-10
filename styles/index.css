@@ -28,3 +28,15 @@ border: 1px solid #d0d0d0;
 #createPostBtn{
     margin-left: 0.75%;
 }
+.create-post-btn-holder{
+    text-align: center;
+}
+.create-post-modal-btn{
+    padding: 5px 30px;
+}
+.create-post-modal{
+    padding-top: 10%;
+}
+.create-post-modal-cotent{
+    width: 70%;
+}
