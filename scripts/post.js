@@ -47,8 +47,7 @@ function editUserPost(){
     postCotent.style.border = '1px solid pink';
 }
 
-//Save User Edited Post 
-
+//Save User Edited Post
 function saveUserPost(){
     var savePostBtn = document.getElementById('savePostBtn');
     savePostBtn.style.display = 'none';

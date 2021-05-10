@@ -17,15 +17,15 @@
             <p class="logo-sub-title">Explore, Imagine, Create</p>
           </div>
           <div class="header-right-items col-6">
-            <button class="header-buttons" id="signUpBtn" onclick="showSignUpModal()">Sign Up</button>
-            <button class="header-buttons" id="signInBtn" onclick="showSignInModal()">Sign In</button>
+            <button class="header-buttons" id="signUpBtn" onclick="showSignUpModal();">Sign Up</button>
+            <button class="header-buttons" id="signInBtn" onclick="showSignInModal();">Sign In</button>
           </div>
     </header>
     <div class="container">
         <div class="post-title col-12" id="postTitle">Everything you should know about Module & require in Node.js</div>
         <div class="post-author-info col-12">
             <div class="post-author col-6">Srishti Gupta</div>
-            <div class="post-edit-holder col-6"><span class="post-edit-btn" id="editPostBtn" onclick="editUserPost()">Edit<i class="fa fa-edit"></i></span><span class="post-save-btn" id="savePostBtn" onclick="saveUserPost()">Save<i class="fa fa-save"></i></span></div>
+            <div class="post-edit-holder col-6"><span class="post-edit-btn" id="editPostBtn" onclick="editUserPost();">Edit<i class="fa fa-edit"></i></span><span class="post-save-btn" id="savePostBtn" onclick="saveUserPost();">Save<i class="fa fa-save"></i></span></div>
         </div>
         <div class="col-12 post-content" id="postContent">
           Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
@@ -53,14 +53,14 @@
           named xyz.
         </div>
         <div class="post-like-holder col-12">
-          <span class="post-like-btn" onclick="likePost()"><i class="fa fa-thumbs-up"></i><span id="postLikeLabel">Like</span></span>  
+          <span class="post-like-btn" onclick="likePost();"><i class="fa fa-thumbs-up"></i><span id="postLikeLabel">Like</span></span>  
           <div class="post-like-info">Be the first one to like this!</div>
         </div>
         <div class="post-comments-holder col-12">
             <div class="post-comment-edit col-12">
                 <textarea class="post-comment" placeholder="Leave a comment..." rows="2" id="userComment"></textarea>
                 <div class="post-comment-btn-holder col-12">
-                <button class="post-comment-btn" onclick="postUserComment()">Comment</button>
+                <button class="post-comment-btn" onclick="postUserComment();">Comment</button>
                 </div>
             </div>
             <div class="col-12 comments-display-holder">
@@ -76,7 +76,7 @@
       <div class="modal-content col-12">
         <div class="modal-header col-12">
           <div class="col-10 modal-heading">Get Started</div>
-          <div class="close col-2"><span class="close-btn" onclick="closeModal(signUpModal)">&times;</span></div>
+          <div class="close col-2"><span class="close-btn" onclick="closeModal(signUpModal);">&times;</span></div>
       </div>
       <div class="modal-form-holder col-12">
           <form class="signup-form modal-form col-12">
@@ -105,7 +105,7 @@
       <div class="modal-content col-12">
         <div class="modal-header col-12">
           <div class="col-10 modal-heading">Welcome Back!</div>
-          <div class="close col-2"><span class="close-btn" onclick="closeModal(signInModal)">&times;</span></div>
+          <div class="close col-2"><span class="close-btn" onclick="closeModal(signInModal);">&times;</span></div>
       </div>
       <div class="modal-form-holder col-12">
           <form class="signin-form modal-form col-12">
@@ -121,7 +121,7 @@
           <button type="submit" class="modal-btn btn btn-success col-12">Sign In</button>
           </form>
       </div>
-      <div class="col-12 modal-bottom-content">Not a member? <span class="modal-footer-btn" onclick="showSignUpModal()">Sign Up</span></div>
+      <div class="col-12 modal-bottom-content">Not a member? <span class="modal-footer-btn" onclick="showSignUpModal();">Sign Up</span></div>
       </div>
     </div>
 </body>
