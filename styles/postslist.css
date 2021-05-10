@@ -67,3 +67,29 @@ color: gray;
 .view-post i:hover{
     cursor: pointer;
 }
+.delete-post-modal-heading{
+    font-size: 17px;
+color: #000;
+margin-bottom: 30px;
+}
+.delete-post-modal-content{
+    padding: 25px;
+}
+.btn-option-div button{
+    padding: 6px 30px;
+font-size: 14px;
+}
+.affirmative-holder{
+    text-align: left;
+}
+.negavtive-holder{
+    text-align: right;
+}
+.yes-btn{
+    background-color: #74b56b;
+    border: 0px;
+}
+.no-btn{
+    background-color: #c14640;
+    border: 0px;
+}
